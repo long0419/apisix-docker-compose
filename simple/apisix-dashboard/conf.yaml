@@ -2,7 +2,7 @@ conf:
   listen:
     host: 0.0.0.0 # 允许外网访问
     #host: 127.0.0.1 # `manager api` listening ip or host name
-    port: 9000 # `manager api` listening port
+    port: 9001 # `manager api` listening port
   etcd:
     endpoints: # supports defining multiple etcd host addresses for an etcd cluster
       - 172.18.5.10:2379
